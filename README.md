@@ -120,3 +120,10 @@ IM-SYAU-ble-esp-mcpy-loader/
 
 本仓库采用 [MIT License](LICENSE)。与配套项目 [`IM-SYAU-Core`](https://github.com/sunflowermm/IM-SYAU-Core) 一起作为同一套“昆虫博物馆智能导览”解决方案的组成部分。
 
+---
+
+## 鸣谢
+
+本采集端固件基于 [XRK-AGT](https://github.com/sunflowermm/XRK-AGT) 框架的 `/device` 通道、
+事件系统与 Core 机制完成端到端集成，感谢 XRK-AGT 项目提供可靠的底层能力。
+
