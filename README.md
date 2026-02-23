@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <img src="esp32-c3.svg" alt="ESP32-C3 beacon (advertiser)" width="480" />
-  <img src="esp32-s3.svg" alt="ESP32-S3 scanner (reporter)" width="480" />
+  <img src="esp32-c3.svg" alt="ESP32-C3 beacon (advertiser)" width="360" />
+  <img src="esp32-s3.svg" alt="ESP32-S3 scanner (reporter)" width="360" />
 </p>
 
 <p align="center">
