@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="沈阳农业大学-logo-2048px.png" alt="沈阳农业大学校徽" width="160" />
+</p>
+
 <h1 align="center">IM-SYAU-ble-esp-mcpy-loader</h1>
 
 <p align="center">
