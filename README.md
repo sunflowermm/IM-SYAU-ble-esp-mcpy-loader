@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <img src="esp32-c3.svg" alt="ESP32-C3 beacon (advertiser)" width="240" />
-  <img src="esp32-s3.svg" alt="ESP32-S3 scanner (reporter)" width="240" />
+  <img src="esp32-c3.svg" alt="ESP32-C3 beacon (advertiser)" width="480" />
+  <img src="esp32-s3.svg" alt="ESP32-S3 scanner (reporter)" width="480" />
 </p>
 
 <p align="center">
@@ -25,8 +25,8 @@
 ```mermaid
 graph LR
   subgraph Device["ESP32 设备侧（本仓库）"]
-    S3[ESP32-S3\n扫描/上报]
-    C3[ESP32-C3\n广播(信标)]
+    S3[ESP32-S3 扫描与上报]
+    C3[ESP32-C3 信标广播]
   end
 
   subgraph Server["XRK-AGT 服务端"]
