@@ -1,0 +1,32 @@
+# —— KiCad ——
+**/.backups/
+**/*-backups/
+**/fp-info-cache
+**/*.lck
+**/~$*
+**/~*.kicad_*
+**/.history/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+**/*.dsn
+**/*.ses
+# 中间检查产物（源工程 + gerber 已够打板）
+**/fab/*.xml
+**/fab/drc.json
+**/fab/erc.json
+**/fab/svg/
+**/*-drl_map.pdf
+
+# —— Python / 本地 ——
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# —— 系统 ——
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/

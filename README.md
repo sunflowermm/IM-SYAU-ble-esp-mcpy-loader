@@ -53,6 +53,8 @@ graph LR
 IM-SYAU-ble-esp-mcpy-loader/
 ├── README.md
 ├── LICENSE
+├── hardware/              # KiCad：S3 载板（与固件同仓）
+│   └── im-syau/           # 主载板（插 ESP32-S3 DevKit）+ Gerber
 ├── esp32s3/
 │   ├── boot.py            # 启动入口：检测配网/正常模式
 │   ├── loader.py          # 设备加载器：WiFi + WS + 插件系统
@@ -63,6 +65,8 @@ IM-SYAU-ble-esp-mcpy-loader/
 └── esp32c3mini/
     └── boot.py            # C3 广播脚本（模拟/固定信标）
 ```
+
+导览业务（HTTP / 知识库 / www）在独立 Core：`IM-SYAU-Core`，本仓只含 **固件 + 板卡**。
 
 ---
 
